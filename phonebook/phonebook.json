@@ -3,5 +3,10 @@
         "_name": "Marinoiu Radu-Florin", 
         "country": "United Kingdom", 
         "phone": "737563905"
+    }, 
+    {
+        "_name": "Benjamin Franklin", 
+        "country": "United States", 
+        "phone": "333554444"
     }
 ]
