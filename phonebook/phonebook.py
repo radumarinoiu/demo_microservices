@@ -63,7 +63,8 @@ def DELETE_REQUEST(request_data):
         name_value = request_data[NAME_FIELD]
         for entry in DATABASE:
             if name_value == entry[NAME_FIELD]:
-                DATABASE.pop(entry)
+                DATABASE.remove(entry)
+                UPDATE_DATABASE()
                 return "OK"
     return "ERROR"
 
