@@ -1,4 +1,4 @@
-echo '{"type": "POST","data": {"_name": "Marinoiu Radu-Florin","phone": "737563905","country": "Romania"}}' | python phonebook.py
+echo '{"type": "POST","data": {"_name": "Lincoln Andrews","phone": "551232577","country": "United Kingdom"}}' | python phonebook.py
 echo '{"type": "UPDATE","data": {"_name": "Marinoiu Radu-Florin","phone": "737563905","country": "United Kingdom"}}' | python phonebook.py
 echo '{"type": "GET","data": {"_name": "Marinoiu Radu-Florin"}}' | python phonebook.py
 echo '{"type": "DELETE","data": {"_name": "Marinoiu Radu-Florin"}}' | python phonebook.py
