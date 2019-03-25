@@ -1,5 +1,7 @@
 {
-    "type" : "GET",
+    "type" : "check",
+    "data" : {
     "_username" : "eduard",
-    "pass" : "eduardo"
+    "pass" : "mihail"
+    }
 }
